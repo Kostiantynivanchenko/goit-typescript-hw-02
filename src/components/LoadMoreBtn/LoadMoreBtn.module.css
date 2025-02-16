@@ -1,0 +1,37 @@
+.btnLoad {
+  display: inline-block;
+  padding: 12px 32px;
+  margin: 20px auto;
+  border: none;
+  border-radius: 30px;
+  background: linear-gradient(
+    45deg,
+    #f09433,
+    #e6683c,
+    #dc2743,
+    #cc2366,
+    #bc1888
+  );
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btnLoad:hover,
+.btnLoad:focus {
+  background: linear-gradient(
+    45deg,
+    #bc1888,
+    #cc2366,
+    #dc2743,
+    #e6683c,
+    #f09433
+  );
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  transform: translateY(-2px);
+}
